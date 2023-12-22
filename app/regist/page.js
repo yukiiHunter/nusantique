@@ -1,9 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import './regist.css';
-import 'transition-style';
 
 export default function Regist() {
     const [redirecting, setRedirecting] = useState(false);
@@ -135,19 +132,6 @@ export default function Regist() {
                     </div>
                     
                 </div>
-
-                <ToastContainer
-                    position="bottom-left"
-                    autoClose={5000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="light"
-                />
             </div>
         </>
     );
