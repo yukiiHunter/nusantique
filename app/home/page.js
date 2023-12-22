@@ -1,3 +1,3 @@
 export default function Home() {
-  Ini adalah Home Page
+  <p>Ini adalah Home Page!</p>
 }
